@@ -86,3 +86,76 @@ body{
 .resumen .resumen_izquierda ul li .datos{
     color: #b1eaff;
 }
+.resumen .resumen_izquierda .resumen_skills ul li{
+    color: #b1eaff;
+    justify-content: space-between;
+}
+.resumen .resumen_izquierda .resumen_skills ul li .habilidad_nombre{
+    width: 25%;
+}
+.resumen .resumen_izquierda .resumen_skills ul li .habilidad_progreso{
+    width: 45%;
+    margin: 0 5px;
+    height: 5px;
+    background: #009fd9;
+    position: relative;
+    border-radius: 5px;
+}
+.resumen .resumen_izquierda .resumen_skills ul li  .habilidad_valor{
+    width: 15%;
+}
+.resumen .resumen_izquierda .resumen_skills ul li .habilidad_progreso span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
+.resumen .resumen_derecha{
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+}
+.resumen .resumen_derecha .bol{
+    color: #00b5f4;
+}
+.resumen .resumen_derecha .resumen_trabajo ul,
+.resumen .resumen_derecha .resumen_educacion ul{
+    padding-left: 40px;
+    overflow: hidden;
+}
+.resumen .resumen_derecha ul li{
+    position: relative;
+}
+.resumen .resumen_derecha ul li .fecha{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.resumen .resumen_derecha ul li .informacion{
+    margin-bottom: 20px;
+}
+.resumen .resumen_derecha ul li:last-child .informacion{
+    margin-bottom: 0;
+}
+.resumen .resumen_derecha .resumen_trabajo ul li:before,
+.resumen .resumen_derecha .resumen_educacion ul li:before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #0bb5f4;
+}
+.resumen .resumen_derecha .resumen_trabajo ul li:after,
+.resumen .resumen_derecha .resumen_educacion ul li:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 115px;
+    background: #0bb5f4;
+}
