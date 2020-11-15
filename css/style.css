@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #585c68;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.semi_bold{
+    font-weight: 500;
+    font-size: 16px;
+}
+.resumen{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+.resumen .resumen_izquierda{
+    width: 280px;
+    background: #0bb5f4;
+}
+.resumen .resumen_izquierda .resumen_perfil{
+    width: 100%;
+    height: 280px;
+}
+.resumen .resumen_izquierda .resumen_perfil img{
+    width: 100%;
+    height: 100%;
+}
+.resumen .resumen_izquierda .resumen_contenido{
+    padding: 0 25px;
+}
+.resumen .titulo{
+    margin-bottom: 20px;
+}
+.resumen .resumen_izquierda .bold{
+    color: #fff;
+}
+.resumen .resumen_izquierda .regular{
+    color: #b1eaff;
+}
+.resumen .resumen_item{
+    padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+}
+.resumen .resumen_izquierda .resumen_item:last-child{
+    border-bottom: 0px;
+}
+.resumen .resumen_izquierda ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.resumen .resumen_izquierda  ul li:last-child{
+    margin-bottom: 0;
+}
+.resumen .resumen_izquierda ul li .icono{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #0bb5f4;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+}
+.resumen .icono i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.resumen .resumen_izquierda ul li .datos{
+    color: #b1eaff;
+}
