@@ -13,6 +13,14 @@ body{
     line-height: 22px;
     color: #555555;
 }
+a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color:#fff;
+}.info{
+    text-align: justify;
+}
 .bold{
     font-weight: 700;
     font-size: 20px;
@@ -85,6 +93,7 @@ body{
 }
 .resumen .resumen_izquierda ul li .datos{
     color: #b1eaff;
+    font-size: small;
 }
 .resumen .resumen_izquierda .resumen_skills ul li{
     color: #b1eaff;
@@ -92,6 +101,7 @@ body{
 }
 .resumen .resumen_izquierda .resumen_skills ul li .habilidad_nombre{
     width: 25%;
+    font-size: 12px;
 }
 .resumen .resumen_izquierda .resumen_skills ul li .habilidad_progreso{
     width: 45%;
